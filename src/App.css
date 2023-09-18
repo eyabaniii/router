@@ -1,0 +1,31 @@
+body{
+
+  backface-visibility: hidden;
+
+  background:   url('./c3.jpg') ;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.carte{
+  padding: 1rem;
+ align-items: center;
+    backdrop-filter: blur(80px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-shadow: 2px 2px 40px white;
+}
+h5,p{
+  color: white;
+}
+.collec{
+  padding: 0rem 2rem;
+  display: grid;
+  grid-template-columns: repeat(6 ,1fr);
+  gap: 10px;
+  
+}
